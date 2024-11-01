@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imgs/fundo_game.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.img-gorro{
+    width: 80px;
+}
+
+.hud{
+    width: 248px;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.enemyC{
+    transform: scaleX(-1);
+}
