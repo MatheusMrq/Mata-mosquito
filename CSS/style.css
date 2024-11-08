@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap'); /* Fonte natalina */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.listS {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-image: url(../imgs/fundo.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#logo {
+    display: flex;
+    color: #d2e5ff;
+    font-size: 150%;
+    margin-left: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    align-items: center;
+}
+
+.navlink {
+    color: #d2e5ff;
+    text-decoration: none;
+    margin-right: 2vh;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-left: 1vh;
+    position: relative;
+}
+
+.navlink::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; 
+    left: 50%; 
+    width: 0;
+    height: 2px;
+    background-color: #ff0000;
+    transition: width 0.3s ease, left 0.3s ease; 
+}
+
+.navlink:hover::after {
+    width: 100%; 
+    left: 0; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.log {
+    height: 3.5vh;
+    margin-top: 0.25vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mid {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 3%;
+    color: #d2e5ff;
+    font-size: 300%;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 3%;
+    margin-top: -5%;  
+    color: white;
+    font-size: 125%;
+}
+
+.vmata{
+    color:red;
+}
+
+.chaLogo{
+    width: 8%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.bob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15vw;
+    width: 30vw;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.StartBot {
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color:white;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    background-color: red;
+    width: 25vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.StartBot:hover {
+    transform: scale(1.1);
+}
+
+.jogarbc{
+    background-color: rgb(255, 0, 0);
+}
